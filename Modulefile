@@ -29,11 +29,11 @@ end
 version    git_version
 
 ## Add dependencies, if any:
-dependency 'puppetlabs/razor', '>= 1.0.1'
-dependency 'puppetlabs/postgresql'
+dependency 'puppetlabs/razor', '>= 0.10.2'
+dependency 'puppetlabs/postgresql', '>= 3.0.0'
 # This is the network setting for Fedora/RedHat.
-dependency 'razorsedge/network'
-dependency 'lex/dnsmasq'
+dependency 'razorsedge/network', '>= 3.2.0'
+dependency 'lex/dnsmasq', '>= 2.1.0'
 
 
 # Generate the changelog file
